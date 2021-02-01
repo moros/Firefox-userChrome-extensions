@@ -17,6 +17,7 @@
 
 #nav-bar {
     padding-left: 76px;
+    padding-top: 2px;
 }
 
 :root[inFullscreen] #nav-bar {
