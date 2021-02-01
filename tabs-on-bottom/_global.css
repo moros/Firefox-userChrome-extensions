@@ -1,0 +1,19 @@
+:root[tabsintitlebar][sizemode="maximized"] #navigator-toolbox {
+    -moz-appearance: none !important;
+}
+
+/* Fix the FUllscreen changing padding on other bars. */
+:root[tabsintitlebar][sizemode="maximized"] #titlebar {
+    -moz-appearance: none !important;
+}
+
+/* Change bars order */
+#PersonalToolbar {
+    -moz-box-ordinal-group: 3 !important;
+}
+#titlebar {
+    -moz-box-ordinal-group: 2 !important;
+}
+#nav-bar {
+    -moz-box-ordinal-group: 1 !important;
+}

@@ -1,0 +1,9 @@
+/* Hide window MAX MIN CLOSE buttons */
+.titlebar-buttonbox-container {
+    display: none;
+}
+
+/* Hide toolbar spacers */
+#titlebar .titlebar-spacer {
+    display: none !important;
+}
